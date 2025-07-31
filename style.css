@@ -1,0 +1,67 @@
+@font-face {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url("./fonts/trebuc.ttf");
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb#0a4b73;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #3bacd9;
+}
+
+header, main, footer{
+    background-color: #3bacd9;
+    margin-top: 50px;
+}
+
+header {
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#logos {
+    width: 430px;
+    height: 180px;
+    background-color: rgb(201, 55, 55);
+}
+
+#menu {
+    width: 730px;
+    height: 85px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    ;
+}
+
+#menu > li{
+    list-style: none;
+    font-size: 30px;
+    line-height: 85px;
+    padding: 0px 10px;
+}
+
+#menu > li:hover {
+    background-color: #0a4b73;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+main {
+    height: 840px;
+}
+
+footer {
+    height: 550px;
+}
